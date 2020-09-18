@@ -1,0 +1,6 @@
+text_file = open("T1.txt")
+text = text_file.read()
+print(type(text))
+print("\n")
+print(text)
+print(len(text))
